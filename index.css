@@ -35,15 +35,15 @@ body{
 
 .navbar ul{
     display: flex;
-    gap: 40px;
+    gap: 30px;
 }
 
 .navbar ul a{
-    font-size: 16px;
+    font-size: 15px;
     color: white;
     list-style: none;
     text-decoration: none;
-    font-weight: bold;
+    font-weight: 600
 }
 
 
@@ -134,8 +134,8 @@ body{
 }
 
 .card{
-    height: 80%;
-    width: 1200px;
+    height: 75%;
+    width: 1080px;
     border-radius: 50px;
     border-spacing: 10px;
     display: flex;
@@ -188,14 +188,19 @@ body{
 .text h1{
     width: 300px;
     font-weight: 900;
-    font-size: 50px;
+    font-size: 40px;
     font-family: bold, sans-serif;
    
 }
 
 .text p{
     width: 300px;
-    font-size: 25px;
+    font-size: 22px;
+}
+
+.card2{
+    background: linear-gradient(90deg, rgba(102,101,148,1) 29%, rgba(101,184,251,1) 99%);
+
 }
 
 
