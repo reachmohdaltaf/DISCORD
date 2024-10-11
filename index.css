@@ -429,7 +429,9 @@ footer{
     margin: 20px;
 }
 
-
+footer{
+    display: none;
+}
 
 
 
