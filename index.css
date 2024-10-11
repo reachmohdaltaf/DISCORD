@@ -233,9 +233,8 @@ footer{
 }
 
 .video{
+    height: 100px;
     object-fit: cover;
-    height: 100%;
-    width: 100%;
     border-radius: 50px;
 }
 
@@ -425,8 +424,12 @@ footer{
     
 }
 
-.card2 .text h1{
-    width: 250px;
+.chat{
+    padding: 10px;
+}
+
+ .text h1{
+    width: 350px;
     font-size: 30px;
     font-family: bold, sans-serif;
     margin: 20px;
