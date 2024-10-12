@@ -342,9 +342,7 @@ footer{
    .card{
     flex-direction: column;
     max-height: 1040px;
-    align-items: start;
-    align-content: start;
-    max-width: 400px;
+    width: 100%;
    }
 
 
