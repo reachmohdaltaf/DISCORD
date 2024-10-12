@@ -199,8 +199,8 @@ footer{
 /* section */
 
 .chat{
-    height: 660px;
-    
+    height: 760px;
+    width: 100%;
     flex-direction: column;
     display: flex;
     align-items: center;
@@ -209,12 +209,10 @@ footer{
 
 .card{
     height: 75%;
-    max-width: 1080px;
+    width: 80%;
     border-radius: 50px;
-    border-spacing: 10px;
     display: flex;
     justify-content: center;
-    margin-bottom: 30px;
     align-items: center;
     padding: 15px;
     background: linear-gradient(90deg, rgba(87,107,224,1) 49%, rgba(49,101,224,1) 99%);
@@ -228,28 +226,30 @@ footer{
 
 .animation{
     height: 100%;
-    width: 70%;
+    width: 100%;
     object-fit: cover;
+    align-items: center;
+    justify-content: start;
+    display: flex;
+    align-content: center;
 }
 
 .animation .video{
-    height: 100%;
+    height: 90%;
+    width: 90%;
     object-fit: cover;
     border-radius: 50px;
+    border: 2px solid black;
+    
 }
 
+
 .chatdetail{
-    height: 100%;
-    width: 50%;
-    justify-content: center;
-    display: flex;
-    flex-direction: column;
     color: white;
 }
 
-.chatdetail h1{
-    line-height: 55px;
-}
+
+
 
 .text{
     display: flex;
@@ -323,16 +323,15 @@ footer{
    }
 
    .img1{
-    max-width: 300px;
-    max-height: 200px;
+    max-width: 400px;
+    max-height: 300px;
    }
 
    .card{
     flex-direction: column;
     max-height: 1040px;
-    margin: 20px;
-    align-items: center;
-    align-content: center;
+    align-items: start;
+    align-content: start;
     padding: 30px;
     gap: 20px;
     max-width: 100%;
@@ -367,17 +366,15 @@ footer{
      flex-direction: column-reverse;
    }
 
-   .animation{
-    height: 80%;
-    width: 100%;
-    object-fit: cover;
-}
 
-.video{
+
+.animation .video{
+    height: 90%;
+    width: 90%;
     object-fit: cover;
-    height: 70%;
-    width: 100%;
-    border-radius: 20px;
+    border-radius: 50px;
+    border: 2px solid black;
+    
 }
 
 .chatdetail{
@@ -387,7 +384,6 @@ footer{
     flex-direction: column;
     color: white;
     align-items: center;
-    margin-top: 50px;
     justify-content: center;
 }
 
@@ -401,7 +397,6 @@ footer{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-top: 30px;
     gap: 10px;
     text-align: center;
     }
