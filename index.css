@@ -339,7 +339,7 @@ footer{
     align-items: start;
     align-content: start;
     gap: 20px;
-    width: 400px;
+    max-width: 400px;
    }
 
 
