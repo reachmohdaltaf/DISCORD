@@ -323,8 +323,7 @@ footer{
    }
 
    .img1{
-    max-width: 300px;
-    max-height: 200px;
+    height: 200px;
    }
 
    .card{
@@ -347,7 +346,7 @@ footer{
     
    }
 .container1{
-    width: 400px;
+
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -399,155 +398,21 @@ footer{
     justify-content: center;
     gap: 10px;
     text-align: center;
+    width: 200px;
     }
 
 .text h1{
-    font-size: 30px;
-    font-family: bold, sans-serif;
-    margin: 10px;
-}
-
-.text p{
-
-    font-size: 19px;
-}
-
-.card2{
-    background: linear-gradient(90deg, rgba(102,101,148,1) 29%, rgba(101,184,251,1) 99%);
-    
-}
-
-.chat{
-    padding: 10px;
-}
-
-
-
-.herobtn{
-    flex-direction: column;
-    align-items: center;
-    margin: 20px;
-}
-
-footer{
-    display: none;
-}
-
-
-
-
-@media  (max-width:400px){
-    
-    
-    
-    header{
-       position: sticky;
-       background-color: #787a9b;
-       top: 0;
-       z-index: 1000; 
-    }
-    
-    
-    .navbar{
-        justify-content: space-between;
-        
-     
-
-    }
-   .navbar ul{
-    display: none;
-   }
-
-   .img1{
-    max-width: 300px;
-    max-height: 200px;
-   }
-
-   .card{
-    flex-direction: column;
-    max-height: 1040px;
-    align-items: start;
-    align-content: start;
-    padding: 30px;
-    gap: 20px;
-    max-width: 100%;
-   }
-
-
-
-   .content{
-    flex-direction: column-reverse;
-    align-items: center;
-    justify-content: center;
-    gap: 20px;
-    
-   }
-.container1{
-    width: 400px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-   .container1 h1{
-    text-align: start;
-    width: 300px;
-    font-size: 1.2rem;
-   }
-   .container1 p{
-    text-align: center;
-    width: 300px;
-   }
-
-   .cardflex{
-     flex-direction: column-reverse;
-   }
-
-
-
-.animation .video{
-    height: 90%;
+    border:1px solid black;
     width: 90%;
-    object-fit: cover;
-    border-radius: 50px;
-    border: 2px solid black;
-    
-}
-
-.chatdetail{
-    height: 100%;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    color: white;
-    align-items: center;
-    justify-content: center;
-}
-
-
-
-.chatdetail h1{
-    line-height: normal;
-}
-
-.text{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    gap: 10px;
-    text-align: center;
-    }
-
-.text h1{
-    width: 100px;
-    font-size: 30px;
+    font-size: 23px;
     font-family: bold, sans-serif;
     margin: 10px;
-   
 }
 
 .text p{
-    width: 100px;
-    font-size: 19px;
+    width: 200px;
+    height: 100px;
+    font-size: 12px;
 }
 
 .card2{
@@ -570,8 +435,6 @@ footer{
 footer{
     display: none;
 }
-
-
 
 
 
