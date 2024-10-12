@@ -272,6 +272,13 @@ footer{
 
 .card2{
     background: linear-gradient(90deg, rgba(102,101,148,1) 29%, rgba(101,184,251,1) 99%);
+    height: 75%;
+    width: 80%;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
 
 }
 
@@ -331,9 +338,8 @@ footer{
     max-height: 1040px;
     align-items: start;
     align-content: start;
-    padding: 30px;
     gap: 20px;
-    max-width: 100%;
+    width: 400px;
    }
 
 
@@ -346,13 +352,13 @@ footer{
     
    }
 .container1{
-
+    
     display: flex;
     flex-direction: column;
     align-items: center;
 }
    .container1 h1{
-    text-align: start;
+    text-align: center;
     width: 300px;
     font-size: 1.2rem;
    }
@@ -369,10 +375,9 @@ footer{
 
 .animation .video{
     height: 90%;
-    width: 90%;
+    width: 100%;
     object-fit: cover;
     border-radius: 50px;
-    border: 2px solid black;
     
 }
 
@@ -402,7 +407,6 @@ footer{
     }
 
 .text h1{
-    border:1px solid black;
     width: 90%;
     font-size: 23px;
     font-family: bold, sans-serif;
