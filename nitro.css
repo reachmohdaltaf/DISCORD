@@ -97,7 +97,77 @@
 .section2{
     position: relative;
     z-index: 2;
-    margin-top: 100px;
-    height: 500px;
+    margin-top: 200px;
+    height: 350px;
     background-color: rgb(255, 255, 255);
+}
+
+.nitro{
+    
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+
+}
+
+.box{
+    width: 40%;
+    border-radius: 30px;
+    background: linear-gradient(52deg, rgba(73,105,234,1) 18%, rgba(0,124,194,1) 80%);
+    color: white;
+    height: 400px;
+    margin-top: -150px;
+    position: relative;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.box h1{
+    font-family: bold, sans-serif;
+    font-size: 35px;
+    font-style: italic;
+}
+
+.box ul{
+    list-style: none;
+    line-height: 40px;
+    margin-top: 10px;
+   
+}
+.box ul li i{
+    margin: 10px;
+}
+
+.box ul li{
+    font-size: 20px;
+}
+
+.purplebox{
+    background: linear-gradient(126deg, rgba(133,71,198,1) 18%, rgba(209,119,240,1) 85%);
+    }
+
+.button{
+    width: 100%;
+}
+
+.button button{
+    width: 100%;
+    padding: 10px;
+    font-size: 20px;
+    font-family: bold, sans-serif;
+}
+
+.section3{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+}
+
+.popular{
+    font-size: 35px;
+    font-family: bold, sans-serif;
+    padding: 10px;
 }
