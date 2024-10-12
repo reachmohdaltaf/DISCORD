@@ -116,8 +116,9 @@ body{
     border-radius: 50px;
     border: none;
     font-weight: 600;
-    width: 250px;
-    font-size: 15px;
+    width: 300px;
+    font-size: 17px;
+    
 }
 
 .btnspan{
@@ -127,7 +128,7 @@ body{
     border-radius: 50px;
     border: none;
     font-weight: 600;
-    width: 250px;
+    
 
 }
 
@@ -456,6 +457,7 @@ footer{
 .bars{
     color: white;
     font-size: 28px;
+    display: inline-block;
 }
 
 footer{
