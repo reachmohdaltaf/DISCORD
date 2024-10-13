@@ -547,6 +547,20 @@ footer{
             width: 100%;
         }
 
+        .container3 p{
+            font-size: 10px;
+            line-height: 30px;
+        }
+
+        .plan{
+            height: 1200px;
+        }
+
+        .btnspan{
+            margin-top: 100px;
+        }
+        
+
         .secondiv{
             line-height: 10px;
         }
