@@ -238,7 +238,6 @@
     align-items: center;
     width: 100%;
     border-radius: 9px;
-    flex-direction: colum;
 
 
 
@@ -253,10 +252,10 @@
 
 
 
+
 .container3{
    display: flex;
    justify-content: space-between;
-   line-height: 50px;
    width: 70%;
 }
 
@@ -279,25 +278,17 @@
     width: 90%;
 }
 
-.firstdiv{
-    margin-top: 40px;
 
-}
 
 .seconddiv{
     text-align: center;
-    margin-top: 40px;
 }
 
 .lastdiv{
     text-align: center;
-    width: 200px; 
+
 }
 
-fieldset{
-    border-color: purple;
-    border-radius: 20px;
-}
 
 .btn3{
     background-color: #5865F2;
@@ -541,8 +532,23 @@ footer{
         .options{
             width: 100%;
         }
+        .options img{
+            width: 100%;
+        }
 
         .popular h1{
+        }
+
+        .firstdiv{
+            font-size: 8px;
+        }
+
+        .container3{
+            width: 100%;
+        }
+
+        .secondiv{
+            line-height: 10px;
         }
 
 
