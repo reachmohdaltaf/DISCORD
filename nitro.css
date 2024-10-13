@@ -68,7 +68,9 @@
     
 
 }
-
+.mobilewidth{
+    display: none;
+}
 
 
 
@@ -457,17 +459,24 @@ footer{
         }
 
         .section1{
-            position: relative;
-            z-index: 2; 
-            display: flex;
-            height: 400px;
-            align-items: center;
-            padding: 0px 200px; 
-            justify-content: center;
-            width: 100%;
+            display: none;
             
         
         }
+
+        .mobilewidth{
+            position: relative;
+            z-index: 2; 
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            
+        
+        
+    }
+
+    
+   
 
         .section2{
             background: none;
@@ -479,21 +488,21 @@ footer{
         
         .container6{
             display: flex;
-            flex-direction: column;
-            color: white;
-            margin-top: 218px;
+            
             
         }
 
         .container6 .mobilehome{
-            width: 350px;
+            width: 100%;
             display: flex;
             flex-direction: column;
             justify-content: center;
             align-items: center;
             text-align: center;
+            color: white;
         }
         .mobilehome h1{
+            color: white;
             font-size: 45px;
             font-family: bold, sans-serif;
             line-height: 50px;
@@ -572,6 +581,10 @@ footer{
 
         .secondiv{
             line-height: 10px;
+        }
+
+        .questions{
+            display: none;
         }
 
 
