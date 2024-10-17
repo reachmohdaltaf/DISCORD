@@ -330,6 +330,8 @@ footer{
        top: 0;
        z-index: 1000; 
     }
+
+    
     
     
     .navbar{
@@ -450,9 +452,7 @@ footer{
     margin: 20px;
 }
 
-.loginbutton{
-    display: none;
-}
+
 
 .bars{
     color: white;
